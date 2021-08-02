@@ -1,3 +1,46 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
 .App-header {
   margin: 0;
   padding: 0;
@@ -6,7 +49,7 @@
 
 main {
   min-height: 100vh;
-  background-image:url(https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image:url(https://cutewallpaper.org/21/roman-statue-wallpaper/1920x1080-Italy-Statue-desktop-PC-and-Mac-wallpaper.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -14,13 +57,16 @@ main {
 }
 
 .right-side{
-  z-index: 2;
+ width:100%;
+ border-radius:20px;
 }
 
 .glass {
   background: white;
-  min-height: 80vh;
-  width: 60%;
+  max-height: 90vh;
+  height:80vh;
+  max-width: 70%;
+  width:60%;
   display:flex;
   flex-flow: row nowrap;
   background: linear-gradient(
@@ -54,13 +100,15 @@ main {
   flex-flow: column wrap;
   align-content: center;
   margin-top:1rem;
-  line-height: 0.1rem;
+  line-height: 1.5rem;
 }
 
 .picContainer p {
   text-align: left;
   margin-left: -1rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  font-family: serif;
+  font-style: oblique;
 }
 
 .picContainer h3 {

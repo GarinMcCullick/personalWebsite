@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import Cards from './Cards';
 
 const Dashboard = () => {
     return(
@@ -23,7 +24,7 @@ const Dashboard = () => {
             </div>
         </div>
         <div className='right-side'>
-            
+            <Cards />
         </div>
         </>
     )
