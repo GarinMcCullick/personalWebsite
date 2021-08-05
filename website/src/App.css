@@ -147,8 +147,15 @@ main {
   cursor:pointer;
   margin-top: 1rem;
   font-size: 1rem;
+  transition: all .6s ease;
 }
 
 .call-to-actionBtn:hover {
-  color:lightgrey;
+  color: white;
+  transform-origin: 0%;
+  transform:scale(1.1,1);
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
 }

@@ -1,8 +1,36 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../App.css';
 import Cards from './Cards';
+import Form from './Form';
 
-const Dashboard = () => {
+class Dashboard extends Component {
+
+    state ={
+        showForm: false,
+    }
+
+    handleHomeClick = () => {
+        this.setState(({
+            showForm: false,
+          })
+          );
+    }
+
+    handleFormClick = () => {
+        this.setState(({
+            showForm: true,
+          })
+          );
+    }
+
+    render() {
+        let display
+        if(this.state.showForm){
+            display = <Form />
+        }else {
+            display = <Cards />
+        }
+
     return(
         <>
         <div className='dashboard'>
@@ -14,20 +42,22 @@ const Dashboard = () => {
             </div>
             
             <div className='navigation'>
+                <div className='link' onClick={this.handleHomeClick}>Home</div>
                 <div className='link'>About Me</div>
                 <div className="link">Education</div>
                 <div className="link">Experience</div>
                 <div className="link">Skills</div>
             </div>
             <div className='contact'>
-                <button className='call-to-actionBtn'>Want to talk?</button>
+                <button className='call-to-actionBtn' onClick={this.handleFormClick}>Want to talk?</button>
             </div>
         </div>
         <div className='right-side'>
-            <Cards />
+            {display}
         </div>
         </>
     )
+    }
 }
 
 export default Dashboard
