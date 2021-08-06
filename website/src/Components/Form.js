@@ -30,35 +30,35 @@ class Form extends Component {
                     <label>
                         <p>First Name</p>
                         <br/>
-                        <input onChange={this.handleChange} value={this.state.fname} name='fname' id='fname'></input>
+                        <input placeholder='First Name :' onChange={this.handleChange} value={this.state.fname} name='fname' id='fname'></input>
                     </label>
                 </div>
                 <div className='form-field'>
                     <label>
                         <p>Last Name</p>
                         <br/>
-                        <input onChange={this.handleChange} value={this.state.lname} name='lname' id='lname'></input>
+                        <input placeholder='Last Name :' onChange={this.handleChange} value={this.state.lname} name='lname' id='lname'></input>
                     </label>
                 </div>
                 <div className='form-field'>
                     <label>
                         <p>Email</p>
                         <br/>
-                        <input onChange={this.handleChange} value={this.state.email} name='email' id='email'></input>
+                        <input placeholder='Email :' onChange={this.handleChange} value={this.state.email} name='email' id='email'></input>
                     </label>
                 </div>
                 <div className='form-field'>
                     <label>
                         <p>Phone #</p>
                         <br/>
-                        <input onChange={this.handleChange} type="tel" value={this.state.phone} name='phone' id='phone'></input>
+                        <input placeholder='Phone # :' onChange={this.handleChange} type="tel" value={this.state.phone} name='phone' id='phone'></input>
                     </label>
                 </div>
                 <div className='form-field'>
                     <label>
                         <p>Send me a Message!</p>
                         <br/>
-                        <textarea onChange={this.handleChange} value={this.state.message} name='message' id='message'></textarea>
+                        <textarea placeholder='Send me a Message!' onChange={this.handleChange} value={this.state.message} name='message' id='message'></textarea>
                     </label>
                 </div>
                 <button>Get in Contact!</button>
