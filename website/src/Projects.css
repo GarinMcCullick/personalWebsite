@@ -41,8 +41,23 @@ h1{
 }
 
 .skill-bar {
-    border:1px solid red;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     width: 100%;
     height:10%;
+    margin-bottom:1rem;
 }
 
+.skill-bar span{
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-bar span:hover{
+    transform: scale(1.15);
+    cursor:pointer;
+}

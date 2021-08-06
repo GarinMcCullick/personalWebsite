@@ -3,6 +3,8 @@ import '../App.css';
 import Cards from './Cards';
 import Form from './Form';
 import Projects from './Projects';
+import { FiPhoneCall } from 'react-icons/fi'
+import { BsEnvelopeOpen } from 'react-icons/bs'
 
 class Dashboard extends Component {
 
@@ -67,8 +69,17 @@ class Dashboard extends Component {
                 <button className='call-to-actionBtn' onClick={this.handleFormClick}>Want to talk?</button>
                 <div className='personal-info'>
                <div className='personal-left'>
-                    <p>tel: (573) 680-8460</p>
-                    <p>glmccullick@gmail.com</p>
+
+                    <a href="tel:5736808460" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">
+                        <span className='phone-icon'><FiPhoneCall size={28} style={{color:'green'}}/></span>
+                        <p class="call-button">tel: (573) 680-8460</p>
+                    </a>
+
+                    <a href = "mailto: glmccullick@gmail.com">
+                        <span className='email-icon'><BsEnvelopeOpen size={28} style={{color:'goldenrod'}}/></span>
+                        <p className='email-button'>glmccullick@gmail.com</p>
+                    </a>
+                    
                </div>
             </div>
             </div>
