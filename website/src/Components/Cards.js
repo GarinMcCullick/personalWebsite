@@ -91,7 +91,7 @@ class Cards extends React.Component {
                 <div className="cardContent1">
                 </div>
                 <div className="cardTitle1">
-                    About
+                    <h2>About</h2>
                 </div>
             </div>
 
@@ -100,7 +100,7 @@ class Cards extends React.Component {
 
                 </div>
                 <div className="cardTitle2">
-                    Education
+                    <h2>Education</h2>
                 </div>
             </div>
 
@@ -109,7 +109,7 @@ class Cards extends React.Component {
 
                 </div>
                 <div className="cardTitle3">
-                    Experience
+                    <h2>Experience</h2>
                 </div>
             </div>
 
@@ -118,7 +118,7 @@ class Cards extends React.Component {
 
                 </div>
                 <div className="cardTitle4">
-                    Skills
+                    <h2>Skills</h2>
                 </div>
             </div>
         </div>
