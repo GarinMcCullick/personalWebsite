@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <main>
+        <main> 
+        <div className='art1'>hello</div>
         <section className='glass'>
           <Dashboard />
         </section>

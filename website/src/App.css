@@ -20,6 +20,7 @@ body {
 	background: white;
 	line-height: 1;
 	color: black;
+  overflow:hidden;
 	}
 ol, ul {
 	list-style: none;
@@ -49,11 +50,20 @@ blockquote, q {
 
 main {
   min-height: 100vh;
-  background-image:url(https://cutewallpaper.org/21/roman-statue-wallpaper/1920x1080-Italy-Statue-desktop-PC-and-Mac-wallpaper.jpg);
-  background-size: cover;
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.art1{
+  width:200px;
+  height:200px;
+  border:1px solid red;
+  position:relative;
+  top:0;
+  left:0;
 }
 
 .right-side{
@@ -62,6 +72,7 @@ main {
 }
 
 .glass {
+  position:absolute;
   background: white;
   max-height: 90vh;
   height:80vh;
