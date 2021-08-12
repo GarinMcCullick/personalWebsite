@@ -7,7 +7,7 @@ class Projects extends Component {
     render(){
         return(
             
-            <div className='wrapper'>
+            <div className='projects-wrapper'>
                 <h1>Projects</h1>
                 <div className='card-wrapper'>
                     <div className='card'>
@@ -26,6 +26,7 @@ class Projects extends Component {
                         </div>
                     </div>
                 </div>
+                <h2>Skills</h2>
                 <div className='skill-bar'>
                     <span>
                         <FaCss3Alt size={74} style={{color:'blue'}} />

@@ -5,7 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <main>
+        <main> 
+          <div className='art-wrapper'>
+            <div className='art1'></div>
+            <div className='art2'></div>
+          </div>
         <section className='glass'>
           <Dashboard />
         </section>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import Cards from './Cards';
+import Home from './Home';
 import Form from './Form';
 import Projects from './Projects';
 import { FiPhoneCall } from 'react-icons/fi'
@@ -9,14 +9,14 @@ import { BsEnvelopeOpen } from 'react-icons/bs'
 class Dashboard extends Component {
 
     state ={ 
-        showCards: true,
+        showHome: true,
         showForm: false,
         showProjects: false,
     }
 
     handleHomeClick = () => {
         this.setState(({
-            showCards: true,
+            showHome: true,
             showProjects:false,
             showForm:false,
           })
@@ -26,7 +26,7 @@ class Dashboard extends Component {
     handleFormClick = () => {
         this.setState(({
             showForm: true,
-            showCards:false,
+            showHome:false,
             showProjects:false,
           })
           );
@@ -35,7 +35,7 @@ class Dashboard extends Component {
     handleProjectClick = () => {
         this.setState(({
             showProjects: true,
-            showCards:false,
+            showHome:false,
             showForm:false,
           })
           );
@@ -45,8 +45,8 @@ class Dashboard extends Component {
         let display
         if(this.state.showForm === true){
             display = <Form />
-        }else if(this.state.showCards === true) {
-            display = <Cards />
+        }else if(this.state.showHome === true) {
+            display = <Home />
         }else if(this.state.showProjects === true) {
             display = <Projects />
         }
@@ -79,7 +79,7 @@ class Dashboard extends Component {
                         <span className='email-icon'><BsEnvelopeOpen size={28} style={{color:'goldenrod'}}/></span>
                         <p className='email-button'>glmccullick@gmail.com</p>
                     </a>
-                    
+
                </div>
             </div>
             </div>
