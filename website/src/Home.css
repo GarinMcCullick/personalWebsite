@@ -81,4 +81,5 @@
 .home-social a:hover{
     transform: scale(1.15);
     transition: all 0.2s ease-in-out;
+    color:white;
 }

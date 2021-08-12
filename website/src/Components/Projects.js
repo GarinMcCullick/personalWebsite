@@ -11,17 +11,17 @@ class Projects extends Component {
                 <h1>Projects</h1>
                 <div className='card-wrapper'>
                     <div className='card'>
-                        <div className='top-card'>
+                        <div className='top-card1'>
 
                         </div>
                     </div>
                     <div className='card'>
-                        <div className='top-card'>
+                        <div className='top-card2'>
 
                         </div>
                     </div>
                     <div className='card'>
-                        <div className='top-card'>
+                        <div className='top-card3'>
 
                         </div>
                     </div>
@@ -29,27 +29,27 @@ class Projects extends Component {
                 <h2>Skills</h2>
                 <div className='skill-bar'>
                     <span>
-                        <FaCss3Alt size={74} style={{color:'blue'}} />
+                        <FaCss3Alt size={74} style={{color:'skyblue'}} />
                         <p>CSS3</p>
                     </span>
                     <span>
-                        <FaHtml5 size={74} style={{color:'blue'}} />
+                        <FaHtml5 size={74} style={{color:'skyblue'}} />
                         <p>HTML5</p>
                     </span>
                     <span>
-                        <SiJavascript size={74} style={{color:'blue'}} />
+                        <SiJavascript size={74} style={{color:'skyblue'}} />
                         <p>Javascript</p>
                     </span>
                     <span>
-                        <FaReact size={74} style={{color:'blue'}} />
+                        <FaReact size={74} style={{color:'skyblue'}} />
                         <p>React</p>
                     </span>
                     <span>
-                        <FaGithub size={74} style={{color:'blue'}} />
+                        <FaGithub size={74} style={{color:'skyblue'}} />
                         <p>Github</p>
                     </span>
                     <span>
-                        <SiPostman size={74} style={{color:'blue'}} />
+                        <SiPostman size={74} style={{color:'skyblue'}} />
                         <p>Postman</p>
                     </span>
                 </div>
