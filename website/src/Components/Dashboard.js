@@ -60,7 +60,7 @@ class Dashboard extends Component {
                 <p>Hi my name is</p>
                 <h3>Garin McCullick</h3>
             </div>
-            
+            <div className='bottom-wrapper'>
             <div className='navigation'>
                 <div className='link' onClick={this.handleHomeClick}>Home</div>
                 <div className='link' onClick={this.handleProjectClick}>Projects</div>
@@ -80,6 +80,7 @@ class Dashboard extends Component {
                         <p className='email-button'>glmccullick@gmail.com</p>
                     </a>
 
+               </div>
                </div>
             </div>
             </div>
