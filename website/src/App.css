@@ -57,13 +57,32 @@ main {
   justify-content: center;
 }
 
+.art-wrapper{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-flow:column wrap;
+  justify-content: space-between;
+}
+
 .art1{
   width:200px;
   height:200px;
-  border:1px solid red;
-  position:relative;
-  top:0;
-  left:0;
+  margin-left:4rem;
+  margin-top:10rem;
+  background-image: url('https://uploads-ssl.webflow.com/5e3ce2ec7f6e53c045fe7cfa/603dd77ba0472083c35abd58_Frame-158.png');
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.art2{
+  width:200px;
+  height:200px;
+  background-image: url('https://uploads-ssl.webflow.com/5e3ce2ec7f6e53c045fe7cfa/603dd7815e7536a962af11bd_Frame-157.png');
+  background-size: cover;
+  margin-left:4rem;
+  margin-bottom:10rem;
+  border-radius: 50%;
 }
 
 .right-side{

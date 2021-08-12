@@ -6,7 +6,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <main> 
-        <div className='art1'>hello</div>
+          <div className='art-wrapper'>
+            <div className='art1'></div>
+            <div className='art2'></div>
+          </div>
         <section className='glass'>
           <Dashboard />
         </section>
