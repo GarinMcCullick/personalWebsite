@@ -15,7 +15,7 @@ class Home extends React.Component {
             </div>
             <div className='home-description'>
                 <h2>Hi, I'm Garin.</h2>
-                <p>A driven Front End Web developer with over 4,000 coding hours across an array of languages and libraries. Mainly I work in Javascript/React/HTML5/CSS3. I'm always looking for new and exciting projects with cool and interesting people.</p>
+                <p>A front end web developer with over 4,000 coding hours across an array of languages and libraries. Mainly I work in Javascript/React/HTML5/CSS3. I'm always looking for new and exciting projects with cool and interesting people.</p>
                 <h3>Have an exciting project?</h3>
             </div>
             <div className='home-social'>

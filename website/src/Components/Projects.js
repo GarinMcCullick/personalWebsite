@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../Projects.css'
 import { FaCss3Alt, FaHtml5, FaReact, FaGithub } from 'react-icons/fa'
-import { SiJavascript, SiPostman } from 'react-icons/si'
+import { SiJavascript, SiNpm, SiPostman } from 'react-icons/si'
 
 class Projects extends Component {
     render(){
@@ -45,8 +45,12 @@ class Projects extends Component {
                         <p>React</p>
                     </span>
                     <span>
+                        <SiNpm size={74} style={{color:'skyblue'}} />
+                        <p>Npm</p>
+                    </span>
+                    <span>
                         <FaGithub size={74} style={{color:'skyblue'}} />
-                        <p>Github</p>
+                        <p>Git / Github</p>
                     </span>
                     <span>
                         <SiPostman size={74} style={{color:'skyblue'}} />
