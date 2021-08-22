@@ -42,34 +42,21 @@ blockquote, q {
 	quotes: "" "";
 	}
 
-.App-header {
-  margin: 0;
-  padding: 0;
-  box-sizing:border-box;
-  }
+  @media (max-width: 1920px){
 
-main {
-  min-height: 100vh;
+.App-header {
+  height: 100vh;
+  width: 100%;
   background-color: #485461;
   background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.art-wrapper{
-  width:100vw;
-  height:100vh;
-  display:flex;
-  flex-flow:column wrap;
-  justify-content: space-between;
-}
+  }
 
 .art1{
   width:200px;
   height:200px;
-  margin-left:4rem;
-  margin-top:10rem;
   background-image: url('https://uploads-ssl.webflow.com/5e3ce2ec7f6e53c045fe7cfa/603dd77ba0472083c35abd58_Frame-158.png');
   background-size: cover;
   border-radius: 50%;
@@ -87,8 +74,6 @@ main {
   height:200px;
   background-image: url('https://uploads-ssl.webflow.com/5e3ce2ec7f6e53c045fe7cfa/603dd7815e7536a962af11bd_Frame-157.png');
   background-size: cover;
-  margin-left:4rem;
-  margin-bottom:10rem;
   border-radius: 50%;
   transition: all 1.1s ease-in-out;
 }
@@ -105,10 +90,8 @@ main {
 }
 
 .glass {
-  position:absolute;
   background: white;
-  max-height: 90vh;
-  height:80vh;
+  height:80%;
   max-width: 70%;
   width:60%;
   display:flex;
@@ -125,14 +108,14 @@ main {
 }
 
 .dashboard {
-  width:20rem;
+  width:30%;
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: inherit;
 }
 
 .picture {
-  width:7.5rem;
-  height:7.5rem;
+  width:50%;
+  height:7.5em;
   background-image: url(https://scontent.fmci2-1.fna.fbcdn.net/v/t1.6435-9/70187031_816988262052051_271538191914237952_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=174925&_nc_ohc=E-OsDNGbhP8AX8e7xps&_nc_ht=scontent.fmci2-1.fna&oh=10e0a045a2b07eedfd80e3ab7d770292&oe=612574CE);
   background-size:cover;
   border-radius: 50%;
@@ -290,3 +273,47 @@ main {
   text-decoration: underline;
   color:goldenrod;
 }
+
+  }
+
+  @media (max-width: 1400px){
+
+    .glass {
+      background: white;
+      height:90%;
+      min-width: 90%;
+      width:90%;
+      display:flex;
+      flex-flow: row nowrap;
+      background: linear-gradient(
+        to right bottom,
+         rgba(255,255,255,0.7),
+         rgba(255, 255, 255, 0.3)
+         );
+         border-radius: 1.5rem;
+         z-index: 3;
+         -webkit-backdrop-filter: blur(1.1rem);
+         backdrop-filter: blur(1.1rem);
+    }
+  }
+
+  @media (max-width: 1000px){
+
+    .glass {
+      background: white;
+      height:100%;
+      min-width: 100%;
+      width:100%;
+      display:flex;
+      flex-flow: row nowrap;
+      background: linear-gradient(
+        to right bottom,
+         rgba(255,255,255,0.7),
+         rgba(255, 255, 255, 0.3)
+         );
+         border-radius: 0;
+         z-index: 3;
+         -webkit-backdrop-filter: blur(1.1rem);
+         backdrop-filter: blur(1.1rem);
+    }
+  }

@@ -72,7 +72,7 @@ class Dashboard extends Component {
 
                     <a href="tel:5736808460" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">
                         <span className='phone-icon'><FiPhoneCall size={28} style={{color:'green'}}/></span>
-                        <p class="call-button">tel: (573) 680-8460</p>
+                        <p className="call-button">tel: (573) 680-8460</p>
                     </a>
 
                     <a href = "mailto: glmccullick@gmail.com">
