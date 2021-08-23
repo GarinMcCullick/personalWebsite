@@ -1,6 +1,6 @@
 import React from 'react';
-import '../Home.css'
-import { AiFillGithub, AiFillLinkedin, AiOutlineFileDone } from 'react-icons/ai'
+import '../Home.css';
+import { AiFillGithub, AiFillLinkedin, AiOutlineFileDone } from 'react-icons/ai';
 
 class Home extends React.Component {
  
