@@ -3,10 +3,10 @@ import '../Home.css';
 import { AiFillGithub, AiFillLinkedin, AiOutlineFileDone } from 'react-icons/ai';
 
 class Home extends React.Component {
- 
 
     render(){
     return(
+        
         <div className='home-wrapper'>
             <div className='home-title'>
                 <div className='home-name'>
@@ -22,10 +22,6 @@ class Home extends React.Component {
                 <a href='https://github.com/GarinMcCullick'>
                     <AiFillGithub size={74} style={{color:'black'}} />
                     <p>GitHub</p>
-                </a>
-                <a href=''>
-                    <AiOutlineFileDone size={74 } style={{color:'black'}} />
-                    <p>CV</p>
                 </a>
                 <a href='https://www.linkedin.com/in/garin-mccullick-891a2320a/'>
                     <AiFillLinkedin size={74} style={{color:'black'}} />
