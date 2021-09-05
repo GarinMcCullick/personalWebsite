@@ -25,13 +25,12 @@ h1{
 .card {
     background-color: white;
     width:30%;
-    height:75%;
+    height:90%;
     transition: all .5s ease-in-out;
     box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card:hover {
-    cursor:pointer;
     transform:scale(1.08);
     transition: all .5s ease-in-out;
     box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
@@ -62,6 +61,33 @@ h1{
     box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
     background-image: url('https://lh3.googleusercontent.com/IbMORtHtElaUx614HrT6vomSHvjDo_pvENEgN3X6TYfeJATzVA2RUc4K4dqaeftecK6n=s168');
     background-size: cover;
+}
+
+.card-text-container{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    max-height:60%;
+    height:59%;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.card-text-container a{
+    align-self: flex-end;
+    margin-left:1rem;
+    margin-right:1rem;
+}
+
+.card-text-container a:hover{
+    color:lightcoral;
+}
+
+.card-text-container p{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .skill-bar {

@@ -1,5 +1,7 @@
 import React from 'react';
 import '../Cv.css';
+import { IoCodeSlashSharp, IoGameController, IoMusicalNotesSharp } from 'react-icons/io5';
+import { AiFillYoutube } from 'react-icons/ai';
 
 class Cv extends React.Component {
 
@@ -86,7 +88,7 @@ class Cv extends React.Component {
                   <p>State Technical College of Missouri, Linn, MO</p> 
                   <p>Computer Application Development</p>
                  </div>
-
+                  
                <div className="date-left">Feb 2021 - June 2021</div>
                <div className="info-left">
                   <p>Lambda School</p>
@@ -109,7 +111,7 @@ class Cv extends React.Component {
                       <p class="semi-bold">Web Development</p> 
                    <ul>
                        <li>
-                           Over 4,000 hours of coding experience between five languages in the last year.
+                           Over 5,000 hours of coding experience between multiple languages and libraries including but not limited to HTML5, CSS3, Javascript, React.
                        </li>
                    </ul>
                  </div>
@@ -146,10 +148,10 @@ class Cv extends React.Component {
             <p class="bold">Hobbies</p>
           </div>
         <ul>
-          <li><i class="fas fa-book"></i></li>
-          <li><i class="fas fa-gamepad"></i></li>
-          <li><i class="fas fa-music"></i></li>
-          <li><i class="fab fa-pagelines"></i></li>
+          <li><i><IoGameController /></i></li>
+          <li><i><AiFillYoutube /></i></li>
+          <li><i><IoMusicalNotesSharp /></i></li>
+          <li><i><IoCodeSlashSharp /></i></li>
        </ul>
      </div>
    </div>

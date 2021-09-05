@@ -8,6 +8,7 @@ import { FiPhoneCall } from 'react-icons/fi';
 import { BsEnvelopeOpen } from 'react-icons/bs';
 import { AiOutlineFileDone } from 'react-icons/ai';
 
+
 class Dashboard extends Component {
 
     state ={ 
@@ -73,8 +74,7 @@ class Dashboard extends Component {
         <>
         <div className='dashboard'>
             <div className='picContainer'>
-                <div className='picture'>
-                </div>
+                    <img className='picture' src='/images/profilePic.jpeg' alt='Me' />
                 <p>Hi my name is</p>
                 <h3>Garin McCullick</h3>
             </div>

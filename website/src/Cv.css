@@ -29,6 +29,7 @@
   .resume .resume_left {
     width: 350px;
     background: #0bb5f4;
+    border-radius: 25px;
   }
   
   .resume .resume_left .resume_profile {
@@ -148,6 +149,7 @@
     width: 520px;
     background: #fff;
     padding: 25px;
+    border-radius: 25px;
   }
   
   .resume .resume_right .bold {
@@ -174,10 +176,12 @@
       margin:0.5rem;
       width:56%;
       text-align:center;
+      border:1px solid white;
   }
 
   .info-left{
     text-align: center;
+    color:white;
   }
   
   .resume .resume_right ul li {

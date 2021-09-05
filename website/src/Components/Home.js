@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Home.css';
-import { AiFillGithub, AiFillLinkedin, AiOutlineFileDone } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 class Home extends React.Component {
 
@@ -20,11 +20,11 @@ class Home extends React.Component {
             </div>
             <div className='home-social'>
                 <a href='https://github.com/GarinMcCullick'>
-                    <AiFillGithub size={74} style={{color:'black'}} />
+                    <AiFillGithub size={74} style={{color:'white'}} />
                     <p>GitHub</p>
                 </a>
                 <a href='https://www.linkedin.com/in/garin-mccullick-891a2320a/'>
-                    <AiFillLinkedin size={74} style={{color:'black'}} />
+                    <AiFillLinkedin size={74} style={{color:'white'}} />
                     <p>LinkedIn</p>
                 </a>
             </div>

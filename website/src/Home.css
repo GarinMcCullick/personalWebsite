@@ -70,10 +70,14 @@
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
+    color:white;
+}
+
+.home-social p{
+    color:white;
 }
 
 .home-social a{
-    color:black;
     text-decoration-line:none;
     transition: all 0.4s ease-in-out;
 }
