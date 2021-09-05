@@ -25,12 +25,12 @@ class Form extends Component {
 
     render(){
         return (
-            <form className='contact-form' onSubmit={this.handleSubmit}>
+            <form className='contact-form' action='https://formsubmit.co/glmccullick@gmail.com' method="POST" onSubmit={this.handleSubmit}>
                 <div className='form-field'>
                     <label>
                         <p>First Name</p>
                         <br/>
-                        <input placeholder='First Name :' onChange={this.handleChange} value={this.state.fname} name='fname' id='fname'></input>
+                        <input placeholder='First Name :' onChange={this.handleChange} value={this.state.fname} name='fname' id='fname' required></input>
                     </label>
                 </div>
                 <div className='form-field'>
@@ -44,14 +44,14 @@ class Form extends Component {
                     <label>
                         <p>Email</p>
                         <br/>
-                        <input placeholder='Email :' onChange={this.handleChange} value={this.state.email} name='email' id='email'></input>
+                        <input placeholder='Email :' onChange={this.handleChange} value={this.state.email} name='email' id='email' required></input>
                     </label>
                 </div>
                 <div className='form-field'>
                     <label>
                         <p>Phone #</p>
                         <br/>
-                        <input placeholder='Phone # :' onChange={this.handleChange} type="tel" value={this.state.phone} name='phone' id='phone'></input>
+                        <input placeholder='Phone # :' onChange={this.handleChange} type="tel" value={this.state.phone} name='phone' id='phone' required></input>
                     </label>
                 </div>
                 <div className='form-field'>

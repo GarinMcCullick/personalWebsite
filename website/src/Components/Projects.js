@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../Projects.css'
-import { FaCss3Alt, FaHtml5, FaReact, FaGithub } from 'react-icons/fa'
-import { SiJavascript, SiPostman } from 'react-icons/si'
+import { FaCss3Alt, FaHtml5, FaReact, FaGithub, FaGlobe } from 'react-icons/fa'
+import { SiJavascript, SiNpm, SiPostman } from 'react-icons/si'
 
 class Projects extends Component {
     render(){
@@ -11,19 +11,39 @@ class Projects extends Component {
                 <h1>Projects</h1>
                 <div className='card-wrapper'>
                     <div className='card'>
-                        <div className='top-card1'>
+                        <img className='top-card1' src='/images/Watermyplants.png' alt='Watermyplants' />
+                            <span className='card-text-container'>
+                                <p>
+                                    Water My Plants is an app that my team created to provide one concise place for people to store information about their plants. This app makes use of HTML, CSS, JS, React, and Axios to make api calls to a backend framework where users data is stored.
+                                </p>
 
-                        </div>
+                                <a href='https://secret-recipes-gold.vercel.app/' ><FaGlobe size={44} /></a>
+                                <a href='https://github.com/BuildWeekWTP/WaterMyPlants-frontend' ><FaGithub size={44} /></a>
+                            </span>
                     </div>
+                    
                     <div className='card'>
-                        <div className='top-card2'>
+                        <img className='top-card2' src='/images/Recipeazy.png' alt='Recipeazy' />
+                            <span className='card-text-container'>
+                                <p>
+                                    Recipeazy is a front-end web app that myself and a few team members worked on in which the app gathers and shares family recipes. The app utilizes HTML, CSS, JS, React, Redux, and axios to communicate with our concurrent team’s Node API.
+                                </p>
 
-                        </div>
+                                <a href='https://secret-recipes-gold.vercel.app/' ><FaGlobe size={44} /></a>
+                                <a href='https://github.com/secretFamiltRecipiesCookbook/frontEnd' ><FaGithub size={44} /></a>
+                            </span>
                     </div>
+                    
                     <div className='card'>
-                        <div className='top-card3'>
+                        <img className='top-card3' src='/images/Pintereach.png' alt='Pintereach' />
+                            <span className='card-text-container'>
+                                <p>
+                                    Pintereach is a old project that I am currently reworking. Utilizing HTML5, CSS3, and React. Pintereach is an app that allows users to create, store, and share articles from their favorite websites, news articles, or any other online source directly to one place.
+                                </p>
 
-                        </div>
+                                <a href='https://secret-recipes-gold.vercel.app/' ><FaGlobe size={44} /></a>
+                                <a href='https://github.com/pintereachBW/front-end' ><FaGithub size={44} /></a>
+                            </span>
                     </div>
                 </div>
                 <h2>Skills</h2>
@@ -45,8 +65,12 @@ class Projects extends Component {
                         <p>React</p>
                     </span>
                     <span>
+                        <SiNpm size={74} style={{color:'skyblue'}} />
+                        <p>Npm</p>
+                    </span>
+                    <span>
                         <FaGithub size={74} style={{color:'skyblue'}} />
-                        <p>Github</p>
+                        <p>Git / Github</p>
                     </span>
                     <span>
                         <SiPostman size={74} style={{color:'skyblue'}} />

@@ -3,8 +3,11 @@ import '../App.css';
 import Home from './Home';
 import Form from './Form';
 import Projects from './Projects';
-import { FiPhoneCall } from 'react-icons/fi'
-import { BsEnvelopeOpen } from 'react-icons/bs'
+import Cv from './Cv';
+import { FiPhoneCall } from 'react-icons/fi';
+import { BsEnvelopeOpen } from 'react-icons/bs';
+import { AiOutlineFileDone } from 'react-icons/ai';
+
 
 class Dashboard extends Component {
 
@@ -12,6 +15,7 @@ class Dashboard extends Component {
         showHome: true,
         showForm: false,
         showProjects: false,
+        showCv:false,
     }
 
     handleHomeClick = () => {
@@ -19,6 +23,7 @@ class Dashboard extends Component {
             showHome: true,
             showProjects:false,
             showForm:false,
+            showCv:false,
           })
           );
     }
@@ -28,6 +33,7 @@ class Dashboard extends Component {
             showForm: true,
             showHome:false,
             showProjects:false,
+            showCv:false,
           })
           );
     }
@@ -37,6 +43,17 @@ class Dashboard extends Component {
             showProjects: true,
             showHome:false,
             showForm:false,
+            showCv:false,
+          })
+          );
+    }
+
+    handleCv = () => {
+        this.setState(({
+            showProjects: false,
+            showHome:false,
+            showForm:false,
+            showCv:true,
           })
           );
     }
@@ -49,14 +66,15 @@ class Dashboard extends Component {
             display = <Home />
         }else if(this.state.showProjects === true) {
             display = <Projects />
+        }else if(this.state.showCv === true) {
+            display = <Cv />
         }
 
     return(
         <>
         <div className='dashboard'>
             <div className='picContainer'>
-                <div className='picture'>
-                </div>
+                    <img className='picture' src='/images/profilePic.jpeg' alt='Me' />
                 <p>Hi my name is</p>
                 <h3>Garin McCullick</h3>
             </div>
@@ -70,15 +88,20 @@ class Dashboard extends Component {
                 <div className='personal-info'>
                <div className='personal-left'>
 
-                    <a href="tel:5736808460" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">
+                    <a href="tel:5736808460" onClick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">
                         <span className='phone-icon'><FiPhoneCall size={28} style={{color:'green'}}/></span>
-                        <p class="call-button">tel: (573) 680-8460</p>
+                        <p className="call-button">tel: (573) 680-8460</p>
                     </a>
 
                     <a href = "mailto: glmccullick@gmail.com">
                         <span className='email-icon'><BsEnvelopeOpen size={28} style={{color:'goldenrod'}}/></span>
                         <p className='email-button'>glmccullick@gmail.com</p>
                     </a>
+
+                    <span className='Cv-link' onClick={this.handleCv}>
+                    <AiOutlineFileDone size={34 } className="file-icon" style={{color:'skyblue'}} />
+                    <p>CV</p>
+                    </span>
 
                </div>
                </div>

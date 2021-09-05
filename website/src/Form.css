@@ -1,3 +1,6 @@
+
+@media (max-width: 1920px){
+
 .contact-form{
     display: flex;
     flex-flow:row wrap;
@@ -23,6 +26,7 @@ label{
 }
 
 input{
+    max-width:50%;
     width:50%;
     height:30%;
     text-align: center;
@@ -57,4 +61,48 @@ button:hover{
     color:white;
     transform:scale(1.1,1.1);
     transition:all 0.4s ease-in-out;
+}
+
+}
+
+@media (max-width: 1400px){
+
+    textarea{
+        height:50px;
+        max-height: 100px;
+        max-width: 50%;
+        border-radius: 10px;
+        border:none;
+    }
+
+    input{
+        max-width:50%;
+        width: 50%;
+        height:30%;
+        text-align: center;
+        border-radius: 10px;
+        border:none;
+    }
+
+}
+
+@media (max-width: 900px){
+
+    textarea{
+        height:50px;
+        max-height: 100px;
+        max-width: 200px;
+        border-radius: 10px;
+        border:none;
+    }
+
+    input{
+        max-width:200px;
+        width: 200px;
+        height:30%;
+        text-align: center;
+        border-radius: 10px;
+        border:none;
+    }
+
 }
