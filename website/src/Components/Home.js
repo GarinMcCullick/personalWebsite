@@ -9,6 +9,8 @@ class Home extends React.Component {
         
         <div className='home-wrapper'>
             <div className='home-title'>
+                <img className='background' src='/images/StockPhoto.jpg' alt='stock' />
+
                 <div className='home-name'>
                     <h1>Garin McCullick</h1>
                 </div>
