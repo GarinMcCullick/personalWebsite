@@ -61,6 +61,7 @@ class Form extends Component {
                         <textarea placeholder='Send me a Message!' onChange={this.handleChange} value={this.state.message} name='message' id='message'></textarea>
                     </label>
                 </div>
+                
                 <button>Get in Contact!</button>
             </form>
         )
