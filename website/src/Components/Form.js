@@ -7,7 +7,7 @@ class Form extends Component {
         fname:'',
         lname:'',
         email:'',
-        phone:Number,
+        phone:'',
         message:'',
     }
 
@@ -22,10 +22,10 @@ class Form extends Component {
         e.preventDefault();
         console.log(this.state)
     }
-
+//
     render(){
         return (
-            <form className='contact-form' action='https://formsubmit.co/glmccullick@gmail.com' method="POST" onSubmit={this.handleSubmit}>
+            <form className='contact-form' onSubmit={this.handleSubmit} action='https://formsubmit.co/glmccullick@gmail.com' method="POST" >
                 <div className='form-field'>
                     <label>
                         <p>First Name</p>
