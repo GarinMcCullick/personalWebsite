@@ -78,17 +78,16 @@ class Dashboard extends Component {
                 <p>Hi my name is</p>
                 <h3>Garin McCullick</h3>
             </div>
-            <div className='bottom-wrapper'>
-            <div className='navigation'>
-                <div className='link' onClick={this.handleHomeClick}>Home</div>
-                <div className='link' onClick={this.handleProjectClick}>Projects</div>
-            </div>
-            <div className='contact'>
-                <button className='call-to-actionBtn' onClick={this.handleFormClick}>Want to talk?</button>
-                <div className='personal-info'>
-               <div className='personal-left'>
 
-                    <a href="tel:5736808460" onClick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">
+            <div className='bottom-wrapper'>
+                <div className='navigation'>
+                    <div className='link' onClick={this.handleHomeClick}>Home</div>
+                    <div className='link' onClick={this.handleProjectClick}>Projects</div>
+                    <button className='call-to-actionBtn' onClick={this.handleFormClick}>Want to talk?</button>
+                </div>
+            
+               <div className='personal-left'>
+                    <a href="tel:5736808460">
                         <span className='phone-icon'><FiPhoneCall size={28} style={{color:'green'}}/></span>
                         <p className="call-button">tel: (573) 680-8460</p>
                     </a>
@@ -102,10 +101,8 @@ class Dashboard extends Component {
                     <AiOutlineFileDone size={34 } className="file-icon" style={{color:'skyblue'}} />
                     <p>CV</p>
                     </span>
-
                </div>
-               </div>
-            </div>
+            
             </div>
         </div>
         <div className='right-side'>
