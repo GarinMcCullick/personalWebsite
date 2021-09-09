@@ -111,7 +111,7 @@ class Cv extends React.Component {
                       <p class="semi-bold">Web Development</p> 
                    <ul>
                        <li>
-                           Over 5,000 hours of coding experience between multiple languages and libraries including but not limited to HTML5, CSS3, Javascript, React.
+                           Over 5,000 hours of coding experience between multiple languages and libraries including but not limited to HTML5, CSS3, Javascript, React, Git.
                        </li>
                    </ul>
                  </div>
