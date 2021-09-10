@@ -114,11 +114,6 @@ h2{
     letter-spacing: 0.15rem;
 }
 
-.skill-bar span:hover{
-    transform: scale(1.15);
-    cursor:pointer;
-}
-
 }
 
 @media (min-width: 500px) and (max-width: 1400px) {
@@ -171,7 +166,6 @@ h2{
     }
     
     .card:hover {
-        cursor:pointer;
         transform:scale(1.08);
         transition: all .5s ease-in-out;
         box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
@@ -245,11 +239,6 @@ h2{
     h2{
         font-size: 3rem;
         letter-spacing: 0.15rem;
-    }
-    
-    .skill-bar span:hover{
-        transform: scale(1.15);
-        cursor:pointer;
     }
 
 }
