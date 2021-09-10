@@ -115,6 +115,17 @@ blockquote, q {
   border-radius: inherit;
 }
 
+
+
+.picContainer {
+  height:30%;
+  width:100%;
+  display: flex;
+  flex-flow: column wrap;
+  border-radius: 25px;
+  line-height: 1.5rem;
+}
+
 .picture {
   width:50%;
   height:50%;
@@ -122,29 +133,21 @@ blockquote, q {
   background-size:cover;
   border-radius: 50%;
   border: 2px solid lightgrey;
-}
-
-.picContainer {
-  height:30%;
-  width:100%;
-  display: flex;
-  flex-flow: column wrap;
-  align-content: center;
-  border-radius: 25px;
-  line-height: 1.5rem;
+  align-self: center;
 }
 
 .picContainer p {
   text-align: left;
-  margin-left: -1rem;
   font-size: 0.9rem;
   font-family: serif;
   font-style: oblique;
-  
+  align-self: flex-start;
+  margin-left:20%;
 }
 
 .picContainer h3 {
-  text-align: right;
+  align-self: flex-end;
+  margin-right:20%;
 }
 
 .bottom-wrapper{
@@ -164,7 +167,6 @@ blockquote, q {
 
 .link {
   font-size: 1.5rem;
-  padding-left:1rem;
   cursor:pointer;
 }
 
@@ -175,8 +177,8 @@ blockquote, q {
 
 
 .call-to-actionBtn {
-  width: 7rem;
-  height: 3rem;
+  width: 70%;
+  height: 20%;
   background-color: lightcoral;
   border: 1px solid lightcoral;
   cursor:pointer;

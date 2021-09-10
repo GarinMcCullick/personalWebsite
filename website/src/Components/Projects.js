@@ -17,8 +17,10 @@ class Projects extends Component {
                                     Water My Plants is an app that my team created to provide one concise place for people to store information about their plants. This app makes use of HTML, CSS, JS, React, and Axios to make api calls to a backend framework where users data is stored.
                                 </p>
 
+                                <div>
                                 <a href='https://secret-recipes-gold.vercel.app/' ><FaGlobe size={44} /></a>
                                 <a href='https://github.com/BuildWeekWTP/WaterMyPlants-frontend' ><FaGithub size={44} /></a>
+                                </div>
                             </span>
                     </div>
                     
@@ -29,8 +31,10 @@ class Projects extends Component {
                                     Recipeazy is a front-end web app that myself and a few team members worked on in which the app gathers and shares family recipes. The app utilizes HTML, CSS, JS, React, Redux, and axios to communicate with our concurrent team’s Node API.
                                 </p>
 
+                                <div>
                                 <a href='https://secret-recipes-gold.vercel.app/' ><FaGlobe size={44} /></a>
                                 <a href='https://github.com/secretFamiltRecipiesCookbook/frontEnd' ><FaGithub size={44} /></a>
+                                </div>
                             </span>
                     </div>
                     
@@ -41,8 +45,10 @@ class Projects extends Component {
                                     Pintereach is a old project that I am currently reworking. Utilizing HTML5, CSS3, and React. Pintereach is an app that allows users to create, store, and share articles from their favorite websites, news articles, or any other online source directly to one place.
                                 </p>
 
+                                <div>
                                 <a href='https://secret-recipes-gold.vercel.app/' ><FaGlobe size={44} /></a>
                                 <a href='https://github.com/pintereachBW/front-end' ><FaGithub size={44} /></a>
+                                </div>
                             </span>
                     </div>
                 </div>

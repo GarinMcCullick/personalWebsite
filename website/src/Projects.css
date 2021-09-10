@@ -68,14 +68,15 @@ h1{
     flex-flow:row wrap;
     justify-content: center;
     max-height:60%;
-    height:59%;
+    height:60%;
     width:90%;
     margin-left:auto;
     margin-right:auto;
+    padding-top:0.5rem;
 }
 
 .card-text-container a{
-    align-self: flex-end;
+    align-self: center;
     margin-left:1rem;
     margin-right:1rem;
 }
@@ -120,6 +121,20 @@ h2{
 
 }
 
+@media (min-width: 500px) and (max-width: 1000px) {
+
+    .card{
+        margin-bottom:1rem;
+    }
+
+    .card-text-container{
+        font-size: 28px;
+        line-height: 2rem;
+        padding-top:0.5rem;
+    }
+
+}
+
 @media (min-width: 100px) and (max-width: 1000px) {
     .projects-wrapper {
         width:100%;
@@ -139,17 +154,20 @@ h2{
         height:65%;
         display:flex;
         flex-flow:column nowrap;
-        justify-content:space-evenly;
+        border: 2px solid grey;
         align-items:center;
+        overflow:scroll;
+        margin-left:1%;
+        margin-right:1%;
     }
 
     .card {
         background-color: white;
-        width:60%;
-        margin:5%;
-        height:75%;
+        width:90%;
+        height:100%;
         transition: all .5s ease-in-out;
         box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
+        margin-top:1rem;
     }
     
     .card:hover {
@@ -185,6 +203,22 @@ h2{
         background-image: url('https://lh3.googleusercontent.com/IbMORtHtElaUx614HrT6vomSHvjDo_pvENEgN3X6TYfeJATzVA2RUc4K4dqaeftecK6n=s168');
         background-size: cover;
     }
+
+    .card-text-container{
+        display:flex;
+        flex-flow:row wrap;
+        justify-content: center;
+        padding-top:0.5rem;
+    }
+
+    .card-text-container div{
+        margin-top:1rem;
+    }
+
+    .card-text-container div a{
+        margin-left:1rem;
+        margin-right:1rem;
+    }
     
     .skill-bar {
         display:flex;
@@ -195,7 +229,7 @@ h2{
         height:19%;
         margin-top:3%;
         overflow: scroll;
-        border:1px dashed white;
+        border:2px solid grey;
         margin:1%;
     }
     

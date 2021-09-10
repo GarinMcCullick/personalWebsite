@@ -19,7 +19,7 @@
     flex-flow:row wrap;
     justify-content: space-between;
     background-size: cover;
-    box-shadow: -15px -10px white;
+    
     overflow:hidden;
     position:relative;
 }
@@ -27,7 +27,7 @@
 .background{
     position:absolute;
     width:100%;
-  z-index: -1;
+    z-index: -1;
 }
 
 .home-name{
@@ -37,12 +37,11 @@
     margin-left:1rem;
     margin-top:2rem;
     background-color: white;
-    
 }
 
 .home-name h1{
     padding-left:4%;
-    font-size:1.9vw;
+    font-size:32px;
 }
 
 .home-description{
@@ -54,20 +53,20 @@
 
 .home-description h2{
     color:whitesmoke;
-    font-size: 1.8vw;
+    font-size: 22px;
     margin-bottom:1rem;
 }
 
 .home-description p{
     color:whitesmoke;
-    font-size: 1.2vw;
+    font-size: 20px;
     line-height: 4vh;
     margin-left:1rem;
 }
 
 .home-description h3{
     color:whitesmoke;
-    font-size: 1.6vw;
+    font-size: 28px;
     margin-left:55%;
     margin-top:1rem;
 }
@@ -95,4 +94,29 @@
     transform: scale(1.15);
     transition: all 0.2s ease-in-out;
     color:white;
+}
+
+@media (max-width: 1400px){
+
+    .home-name{
+        width:50%;
+        height:20%;
+    }
+
+    .home-name h1{
+        font-size: 16px;
+    }
+
+    .home-description h2{
+        font-size: 18px;
+    }
+
+    .home-description p{
+        font-size: 14px;
+    }
+
+    .home-description h3{
+        font-size: 16px;
+    }
+
 }
