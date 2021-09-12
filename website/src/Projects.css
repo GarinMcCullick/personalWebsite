@@ -132,6 +132,10 @@ h2{
         padding-top:0.5rem;
     }
 
+    .card-text-container p{
+        font-size: 14px;
+    }
+
 }
 
 @media (min-width: 100px) and (max-width: 1000px) {
