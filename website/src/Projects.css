@@ -131,9 +131,9 @@ h2{
     }
 
     .card-text-container{
-        font-size: 28px;
-        line-height: 2rem;
         padding-top:0.5rem;
+        height:56%;
+        overflow-x: scroll;
     }
 
     .card-text-container p{
