@@ -1,4 +1,4 @@
-@media (min-width: 1200px){
+@media (min-width: 1400px){
 
 .projects-wrapper {
     width:100%;
@@ -116,7 +116,17 @@ h2{
 
 }
 
-@media (min-width: 500px) and (max-width: 1200px) {
+@media (min-width: 900px) and (max-width:1400px){
+
+    .card-text-container{
+        font-size: 18px;
+        line-height: 1.5rem;
+        padding-top:0.5rem;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
 
     .card-wrapper{
         justify-content:none;
