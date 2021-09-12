@@ -1,4 +1,4 @@
-@media (min-width: 1400px){
+@media (min-width: 100px){
 
 .projects-wrapper {
     width:100%;
@@ -116,17 +116,7 @@ h2{
 
 }
 
-@media (min-width: 900px) and (max-width:1400px){
-
-    .card-text-container{
-        font-size: 18px;
-        line-height: 1.5rem;
-        padding-top:0.5rem;
-    }
-
-}
-
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 1000px) and (max-width: 1400px) {
 
     .card-wrapper{
         justify-content:none;
@@ -144,7 +134,7 @@ h2{
 
 }
 
-@media (min-width: 100px) and (max-width: 500px) {
+@media (min-width: 100px) and (max-width: 1000px) {
     .projects-wrapper {
         width:100%;
         height:100%;
@@ -257,3 +247,4 @@ h2{
     }
 
 }
+
