@@ -459,6 +459,10 @@ blockquote, q {
     height:45%;
   }
 
+  .call-to-actionBtn {
+    font-size: 12px;
+  }
+
   .right-side{
     height:95%;
   }
