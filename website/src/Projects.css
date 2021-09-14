@@ -196,10 +196,10 @@ h2{
     .card {
         background-color: white;
         width:90%;
-        height:90%;
+        height:auto;
         transition: all .5s ease-in-out;
         box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
-        margin-top:1rem;
+        margin-top:1.5rem;
     }
     
     .card:hover {
