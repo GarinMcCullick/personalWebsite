@@ -87,18 +87,18 @@ class Dashboard extends Component {
                 </div>
             
                <div className='personal-left'>
-                    <a href="tel:5736808460">
+                    <a href="tel:5736808460" rel="noreferrer" target="_blank">
                         <span className='phone-icon'><FiPhoneCall size={28} style={{color:'green'}}/></span>
                         <p className="call-button">tel: (573) 680-8460</p>
                     </a>
 
-                    <a href = "mailto: glmccullick@gmail.com">
+                    <a href = "mailto: glmccullick@gmail.com" rel="noreferrer" target="_blank">
                         <span className='email-icon'><BsEnvelopeOpen size={28} style={{color:'goldenrod'}}/></span>
                         <p className='email-button'>glmccullick@gmail.com</p>
                     </a>
 
                     <span className='Cv-link' onClick={this.handleCv}>
-                    <AiOutlineFileDone size={34 } className="file-icon" style={{color:'skyblue'}} />
+                    <AiOutlineFileDone size={34 } className="file-icon" style={{color:'peru'}} />
                     <p>CV</p>
                     </span>
                </div>
