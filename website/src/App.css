@@ -309,12 +309,12 @@ blockquote, q {
 }
 
 .Cv-link:hover p{
-  color:skyblue;
+  color:peru;
   text-decoration:underline;
 }
 
 .Cv-link p{
-  color:skyblue;
+  color:peru;
 }
 
 .file-icon:hover{

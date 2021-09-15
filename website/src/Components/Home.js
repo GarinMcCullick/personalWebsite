@@ -21,11 +21,11 @@ class Home extends React.Component {
                 <h3>Have an exciting project?</h3>
             </div>
             <div className='home-social'>
-                <a href='https://github.com/GarinMcCullick'>
+                <a href='https://github.com/GarinMcCullick' rel="noreferrer" target="_blank">
                     <AiFillGithub size={74} style={{color:'white'}} />
                     <p>GitHub</p>
                 </a>
-                <a href='https://www.linkedin.com/in/garin-mccullick-891a2320a/'>
+                <a href='https://www.linkedin.com/in/garin-mccullick-891a2320a/' rel="noreferrer" target="_blank">
                     <AiFillLinkedin size={74} style={{color:'white'}} />
                     <p>LinkedIn</p>
                 </a>

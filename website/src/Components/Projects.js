@@ -18,8 +18,8 @@ class Projects extends Component {
                                 </p>
 
                                 <div>
-                                <a href='https://secret-recipes-gold.vercel.app/' ><FaGlobe size={44} /></a>
-                                <a href='https://github.com/BuildWeekWTP/WaterMyPlants-frontend' ><FaGithub size={44} /></a>
+                                <a href='https://secret-recipes-gold.vercel.app/' rel="noreferrer" target="_blank"><FaGlobe size={44} /></a>
+                                <a href='https://github.com/BuildWeekWTP/WaterMyPlants-frontend' rel="noreferrer" target="_blank"><FaGithub size={44} /></a>
                                 </div>
                             </span>
                     </div>
@@ -32,8 +32,8 @@ class Projects extends Component {
                                 </p>
 
                                 <div>
-                                <a href='https://secret-recipes-gold.vercel.app/' ><FaGlobe size={44} /></a>
-                                <a href='https://github.com/secretFamiltRecipiesCookbook/frontEnd' ><FaGithub size={44} /></a>
+                                <a href='https://secret-recipes-gold.vercel.app/' rel="noreferrer" target="_blank"><FaGlobe size={44} /></a>
+                                <a href='https://github.com/secretFamiltRecipiesCookbook/frontEnd' rel="noreferrer" target="_blank"><FaGithub size={44} /></a>
                                 </div>
                             </span>
                     </div>
@@ -46,8 +46,8 @@ class Projects extends Component {
                                 </p>
 
                                 <div>
-                                <a href='https://secret-recipes-gold.vercel.app/' ><FaGlobe size={44} /></a>
-                                <a href='https://github.com/pintereachBW/front-end' ><FaGithub size={44} /></a>
+                                <a href='https://secret-recipes-gold.vercel.app/' rel="noreferrer" target="_blank"><FaGlobe size={44} /></a>
+                                <a href='https://github.com/pintereachBW/front-end' rel="noreferrer" target="_blank"><FaGithub size={44} /></a>
                                 </div>
                             </span>
                     </div>
