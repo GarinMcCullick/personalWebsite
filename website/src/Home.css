@@ -120,3 +120,34 @@
     }
 
 }
+
+    @media (min-width:1400px) and (max-width: 1600px){
+
+        .home-name {
+            width:30%;
+            height:40%;
+        }
+
+        .home-name h1{
+            font-size: 32px;
+        }
+
+        .home-description h2 {
+        font-size: 26px;
+        }
+
+        .home-description p{
+            font-size: 18px;
+            
+        }
+
+        .home-description h3{
+            font-size: 24px;
+        }
+
+        .home-social{
+            margin-bottom:0.5rem;
+        }
+
+    }
+

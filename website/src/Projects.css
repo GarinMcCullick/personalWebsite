@@ -116,6 +116,34 @@ h2{
 
 }
 
+@media (min-width: 1400px) and (max-width: 1800px) {
+
+    h1 {
+        font-size: 36px;
+        margin-bottom:1rem;
+    }
+
+    h2 {
+        font-size: 36px;
+        padding-top:1rem;
+    }
+
+    .card-text-container{
+        padding-top:0.5rem;
+        height:56%;
+        overflow-x: scroll;
+    }
+
+    .card-text-container p{
+        font-size: 12px;
+    }
+
+    .skill-bar {
+        height:auto;
+        margin-top: 0;
+    }
+}
+
 @media (min-width: 1000px) and (max-width: 1400px) {
 
     h1{
