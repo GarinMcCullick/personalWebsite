@@ -478,3 +478,11 @@ blockquote, q {
     font-style: oblique;
   }
 }
+
+@media (max-width: 1900px), (max-height:950px) { 
+
+    .Cv-link {
+     display: none;
+  } 
+
+}
