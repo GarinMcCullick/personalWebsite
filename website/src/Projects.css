@@ -41,26 +41,21 @@ h1{
     height:40%;
     border-radius:0 0 20px 20px;
     box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
-    background-image: url('https://lh3.googleusercontent.com/iZw6decTOFcZECU_7Lx0snLM2oNGdYi7ujj45y1e2J06uXnbenlcSKBpvLsPU14NHkaN8w=s151');
-    background-size: cover;
-}
+    object-fit: contain;}
 
 .top-card2 {
     width:100%;
     height:40%;
     border-radius:0 0 20px 20px;
     box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
-    background-image: url('https://lh3.googleusercontent.com/i0_9e88x0AM6E1W5_1nBx9bVSDSAkiFvG_CeZ8OnroYZ6Z9HOU7ayIKFZPChYQDTyKs6Aw=s152');
-    background-size:cover;
-}
+    object-fit: contain;}
 
 .top-card3 {
     width:100%;
     height:40%;
     border-radius:0 0 20px 20px;
     box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
-    background-image: url('https://lh3.googleusercontent.com/IbMORtHtElaUx614HrT6vomSHvjDo_pvENEgN3X6TYfeJATzVA2RUc4K4dqaeftecK6n=s168');
-    background-size: cover;
+    object-fit: contain;
 }
 
 .card-text-container{
@@ -68,11 +63,12 @@ h1{
     flex-flow:row wrap;
     justify-content: center;
     max-height:60%;
-    height:60%;
+    height:55%;
     width:90%;
     margin-left:auto;
     margin-right:auto;
     padding-top:0.5rem;
+    overflow-y:auto;
 }
 
 .card-text-container a{
